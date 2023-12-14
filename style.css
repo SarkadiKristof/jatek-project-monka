@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -20,15 +22,18 @@ body {
 }
 
 .sniper {
+    position: absolute;
     height: 130px;
     width: 130px;
+    transform: translate(-50%, -50%);
 }
 
 p {
     color: white;
-    font-size: 80px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 110px;
     position: absolute;
-    top: 5%;
+    top: 1%;
     left: 50%;
     transform: translateX(-50%);
 }
