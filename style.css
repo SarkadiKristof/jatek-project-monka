@@ -21,13 +21,6 @@ body {
     height: 100vh;
 }
 
-.sniper {
-    position: absolute;
-    height: 130px;
-    width: 130px;
-    transform: translate(-50%, -50%);
-}
-
 p {
     color: white;
     font-family: 'Kanit', sans-serif;
@@ -47,6 +40,7 @@ button {
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
 
 .target {
@@ -54,4 +48,15 @@ button {
     top: 35%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 2;
+    transition: all 1s;
+}
+
+.cursor {
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    pointer-events: none;
 }
