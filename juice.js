@@ -6,7 +6,7 @@ let cursor = document.querySelector('.cursor');
 let score = 0;
 let screenWidth = body.offsetWidth;
 let screenHeight = body.offsetHeight;
-let gameActive = false;  // Added variable to control game state
+let gameActive = false;
 
 function endGame() {
     gameActive = false;
