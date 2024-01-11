@@ -10,7 +10,7 @@ let gameActive = false;  // Added variable to control game state
 
 function endGame() {
     gameActive = false;
-    alert('Congratulations! You are a winner!');
+    alert('Congratulations! You are the winner! You can restart the game by pressing F5');
 }
 
 button.addEventListener('click', function () {
