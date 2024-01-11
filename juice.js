@@ -31,3 +31,7 @@ button.addEventListener('click',function(){
 
         },1000)
 })
+
+if (score == 50) {
+    
+}
